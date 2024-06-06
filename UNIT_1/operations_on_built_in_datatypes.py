@@ -12,7 +12,7 @@ def Lists():
   l2=[1.0,2.5,3.6,54.3]
   print("INDEXING: ",l1[0],l2[1]) # output -> 1 2.5
   print("SLICING : ",l1[0:3])   # output -> [1,2,3]
-  print("CONCATENATION : ",l1+lb) # output -> [1,2,3,4,5,6,1.0,2.5,3.6,54.3]
+  print("CONCATENATION : ",l1+l2) # output -> [1,2,3,4,5,6,1.0,2.5,3.6,54.3]
   print("REPETITION : ",l1*2)  # output -> [1,2,3,4,5,6,1,2,3,4,5,6]
 
 def Tuples():
