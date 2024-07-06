@@ -9,7 +9,6 @@ file1.close()
 
 file2 = open("file2.txt", "w")
 
-content="good morning Vietnam"
 file2.write(content)
 
 
